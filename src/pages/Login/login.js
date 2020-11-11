@@ -54,7 +54,12 @@ const Login = () =>{
                         placeholder:'Ingrese Password'
                     }}
                     handleChange={handleChange}
+                    param={passwordError}
+                    
                 />
+                <label className='label-error'>
+                    contraseña invalida o incompleta...
+                </label>
                 <div className='submit-button-container'>
                  <button onClick={handleSubmit} className='submit-button'>
                     Ingresar

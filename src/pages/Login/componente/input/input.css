@@ -20,3 +20,23 @@
     color: gray;
     opacity: 0.8;
 }
+
+.input-error{
+    width: 100%;
+    height: 35px;
+    border: 1px solid red;
+    color:red;
+    background: rosybrown;
+    border-radius: 25px; 
+    padding: 0 10px 0 20px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    font-size: 14px;
+    outline: none;
+}
+
+.input-error::placeholder{
+    color:red;
+    font-size: 14px;
+    
+}
